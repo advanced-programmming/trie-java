@@ -6,5 +6,6 @@ public class Main {
 	    String word = "supercalifragislisticoespiralidoso";
         Trie trie = new Trie(word);
         boolean result = trie.startsWith("super");
+        boolean resultSearch = trie.search("superman");
     }
 }
